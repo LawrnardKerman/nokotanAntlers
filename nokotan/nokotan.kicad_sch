@@ -3975,10 +3975,6 @@
 		(uuid "63ef3065-c5d9-4d98-b314-9efa45cff459")
 	)
 	(no_connect
-		(at 113.03 53.34)
-		(uuid "6859a9c2-161a-4f21-92b9-c9a03997deb6")
-	)
-	(no_connect
 		(at 163.83 106.68)
 		(uuid "80adbe19-415d-4d50-a4b2-b4f1ae200496")
 	)
@@ -5641,6 +5637,85 @@
 			(project "nokotan"
 				(path "/cd9514ab-4c29-4c5a-a63b-10e304b25356"
 					(reference "#PWR012")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 113.03 53.34 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2e75f33f-8aa1-455c-912f-b338a771f290")
+		(property "Reference" "#PWR025"
+			(at 106.68 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 109.22 53.3399 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 113.03 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 113.03 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 113.03 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "af6f9b20-fb19-40f1-9348-7f6fe5ac82db")
+		)
+		(instances
+			(project "nokotan"
+				(path "/cd9514ab-4c29-4c5a-a63b-10e304b25356"
+					(reference "#PWR025")
 					(unit 1)
 				)
 			)

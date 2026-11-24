@@ -530,7 +530,7 @@
       "netlist": "",
       "plot": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "nokotan.step",
       "vrml": ""
     },
     "page_layout_descr_file": ""
@@ -662,13 +662,18 @@
       {
         "filename": "nokotan.kicad_sch",
         "name": "nokotan",
-        "uuid": "00000000-0000-0000-0000-000000000000"
+        "uuid": "cd9514ab-4c29-4c5a-a63b-10e304b25356"
       }
     ],
-    "used_designators": "",
+    "used_designators": "#PWR25",
     "variants": []
   },
-  "sheets": [],
+  "sheets": [
+    [
+      "cd9514ab-4c29-4c5a-a63b-10e304b25356",
+      "nokotan"
+    ]
+  ],
   "text_variables": {},
   "tuning_profiles": {
     "meta": {
